@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemant Rastogi - Founder & CEO of Bright Content Media</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .profile-img {
+            max-width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 0;
+        }
+        .bio, .services, .contact {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .bio p, .services p, .contact p {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hemant Rastogi</h1>
+    </header>
+
+    <div class="container">
+        <section class="bio">
+            <img src="profile.jpg" alt="Hemant Rastogi" class="profile-img">
+            <h2>About Me</h2>
+            <p>Hello! I am Hemant Rastogi, the founder and CEO of Bright Content Media. With a passion for creativity and a keen eye for detail, I lead a team dedicated to providing top-notch video editing and graphic designing services.</p>
+        </section>
+
+        <section class="services">
+            <h2>Services</h2>
+            <p>At Bright Content Media, we specialize in:</p>
+            <ul>
+                <li>Professional Video Editing</li>
+                <li>Custom Graphic Design</li>
+                <li>Motion Graphics</li>
+                <li>Branding and Identity</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>If you are interested in our services or have any questions, feel free to reach out:</p>
+            <p>Email: <a href="mailto:hemant@brightcontentmedia.com">hemant@brightcontentmedia.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Hemant Rastogi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
